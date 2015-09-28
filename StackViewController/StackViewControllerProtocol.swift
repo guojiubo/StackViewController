@@ -9,7 +9,7 @@
 import UIKit
 
 @objc
-protocol StackViewControllerProtocol {
+public protocol StackViewControllerProtocol {
     
     optional func nextViewControllerOnStackViewController(stackViewController: StackViewController) -> UIViewController?
     
